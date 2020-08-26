@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fidel Labs",
-    "currentPage": "contact-us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -48,12 +48,14 @@
     "screenshot": "screenshot.png",
     "imageResize": true,
     "favicon": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://www.fidel-labs.co",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "google-analytics": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-163141796-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-163141796-1');\n</script>",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
